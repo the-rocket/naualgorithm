@@ -83,3 +83,6 @@ production:
   database: webnaualgorithm_production
   username: webnaualgorithm
   password: <%= ENV['WEBNAUALGORITHM_DATABASE_PASSWORD'] %>
+  #database: webnaualgorithm_production
+  #username: webnaualgorithm
+  #password: <%= ENV['WEBNAUALGORITHM_DATABASE_PASSWORD'] %>
