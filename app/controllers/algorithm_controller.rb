@@ -1,0 +1,2 @@
+class AlgorithmController < ApplicationController
+end
