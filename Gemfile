@@ -9,7 +9,7 @@ end
 gem 'nokogiri'
 gem 'rack',  '>=1.0'
 gem 'thin',  '~>1.1'
-ruby '2.2.6'
+ruby '2.3.1'
 #custom end
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
