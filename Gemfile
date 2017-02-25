@@ -5,10 +5,16 @@ git_source(:github) do |repo_name|
   "https://github.com/#{repo_name}.git"
 end
 
+#custom do
+gem 'nokogiri'
+gem 'rack',  '>=1.0'
+gem 'thin',  '~>1.1'
+ruby '2.2.6'
+#custom end
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.0.1'
-gem 'ruby', '~> 2.2.6'
+#gem 'ruby', '~> 2.3.1'
 # Use postgresql as the database for Active Record
 gem 'pg', '~> 0.18'
 # Use Puma as the app server
