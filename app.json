@@ -2,7 +2,13 @@
   "name": "Start on Heroku: Ruby",
   "description": "A barebones Rails app, which can easily be deployed to Heroku",
   "image": "heroku/ruby",
-  "repository": "https://github.com/heroku/ruby-getting-started",
+  "repository": "https://github.com/the-rocket/naualgorithm.git",
   "keywords": ["ruby", "rails" ],
+  "scripts": {
+     "postdeploy": "bundle exec rake db:migrate"
+   },
+   "env": {
+     "RAILS_ENV": "production"
+   },
   "addons": [ "heroku-postgresql" ]
 }
