@@ -171,7 +171,7 @@ DEPENDENCIES
   jquery-rails
   listen (~> 3.0.5)
   nokogiri
-  pg (~> 0.18)
+  pg
   puma (~> 3.0)
   rack (>= 1.0)
   rails (~> 5.0.1)
