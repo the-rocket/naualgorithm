@@ -9,7 +9,7 @@ end
 gem 'nokogiri'
 gem 'rack',  '>=1.0'
 gem 'thin',  '~>1.1'
-
+gem 'eventmachine'
 #custom end
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
